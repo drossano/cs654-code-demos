@@ -13,11 +13,13 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "pip3 install --user -r requirements.txt",
-	"postCreateCommand": "pip install pandas && pip install numpy",
+	"postCreateCommand": "pip install pandas && pip install numpy && pip install matplotlib && pip install scikit-learn",
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-toolsai.jupyter"
+				"ms-toolsai.jupyter",
+				"KevinRose.vsc-python-indent",
+				"VisualStudioExptTeam.vscodeintellicode"
 			]
 		}
 	},
